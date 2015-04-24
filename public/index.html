@@ -1,0 +1,19 @@
+<!DOCTPYPE html>
+<html>
+  <head>
+    <title>npm-Grunt-Bower-AngularJS Example</title>
+    <meta charset="UTF-8">
+    <script src="js/vendor/angular.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body ng-app="app">
+    <div ng-controller="MainCtrl as ctrl">    
+      <form>
+        <label>Name</label>
+        <input type="text" ng-model="ctrl.customer.name">
+      </form>
+      
+      Hello {{ ctrl.customer.name }}
+    </div>
+  </body>
+</html>
