@@ -4,6 +4,10 @@
   "description": "This example demonstrates the quick setup of an AngularJS project to get you productive as quick as possible.",
   "author": "Dittmar Steiner <dittmar.steiner@gmail.com>",
   "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/DittmarSteiner/npm-grunt-bower-angularjs-example.git"
+  },
   "dependencies": {
     "bower": "^1.4.1",
     "grunt": "^0.4.5",

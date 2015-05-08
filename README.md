@@ -18,6 +18,8 @@
   The technology used here is only an example, use your favorite tools for your development cycle  
   **implement, test, build, deploy**.  
   *("deploy" is not covered here)*
+  
+  This example was inited by my dear colleague [Jose Luis Conde Linares](https://github.com/joselillo) at [Aptly GmbH](http://aptly.de)
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -25,7 +27,7 @@
 
   - **Install nodejs**
 
-    *The following will install the latest version of* **`nodjs`** *and includes* **`npm`** *already*.
+    *The following will install the latest version of* **`nodjs`** *which includes* **`npm`** *already*.
   
         $ curl -sL https://deb.nodesource.com/setup | sudo bash -
         $ sudo apt-get install nodejs
@@ -45,7 +47,7 @@
 
   1. **Git clone** this or a similar project.
 
-        $ git clone ... # please, refer to 'clone URL' on this page
+        $ git clone git://github.com/DittmarSteiner/npm-grunt-bower-angularjs-example.git
         $ cd npm-grunt-bower-angularjs-example
     
   1. **Based on `package.json`**:
@@ -58,7 +60,7 @@
 
   1. **Test**
   
-    Best run this from an extra terminal:
+    Best run this from another terminal:
     
         $ python -m SimpleHTTPServer 12345
     Run your tests!
@@ -220,15 +222,15 @@
 - [gruntjs.com](http://gruntjs.com/)
 - You will find dozens of Grunt tasks under [github.com/gruntjs](https://github.com/gruntjs/) like
   - [grunt-contrib-compress](https://github.com/gruntjs/grunt-contrib-compress)
-  - [grunt-contrib-cssmi](https://github.com/gruntjs/grunt-contrib-cssmin)
-  - [grunt-contrib-uglif](https://github.com/gruntjs/grunt-contrib-uglify)
+  - [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
+  - [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
 - [bower.io](http://bower.io/)
   - [angularjs.org](https://angularjs.org/)
   - [getbootstrap.com](http://getbootstrap.com/) via `$ bower install bootstrap --save`
 
 **[⬆ back to top](#table-of-contents)**
 
-
+<!--
 ## [Branches](https://github.com/DittmarSteiner/npm-grunt-bower-angularjs-example/branches)
 
 
@@ -245,7 +247,7 @@
   - [View Contributors](https://github.com/DittmarSteiner/npm-grunt-bower-angularjs-example/graphs/contributors)
 
 **[⬆ back to top](#table-of-contents)**
-
+-->
 ## License
 
 \([ISC License](http://opensource.org/licenses/isc-license.txt)\)
